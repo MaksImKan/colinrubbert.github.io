@@ -82,5 +82,6 @@ end
 # host it on github pages (If this is a github repository)
 activate :deploy do |deploy|
   deploy.method = :git
+  deploy.branch = 'master'
   deploy.build_before = true
 end
