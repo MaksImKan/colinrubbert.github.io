@@ -15,6 +15,3 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
 # Deploy to GitHub
 gem "middleman-deploy", "~> 1.0"
-
-# Bootstrap Framework
-gem "bootstrap-sass", :require => false
