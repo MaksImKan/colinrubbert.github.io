@@ -20,6 +20,13 @@ h1 {
   }
 }
 
+hr {
+  border-width: 2px;
+  margin-top: 1px;
+  background-color: #03A9F4;
+  border-color: #03A9F4;
+}
+
 .doc {
   font-size: 14px;
   margin: 0; }
@@ -109,6 +116,11 @@ h1 {
 
 .contacts li a:hover {
   text-decoration: none;
+}
+
+.resume a {
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
 }
 
 .center {
