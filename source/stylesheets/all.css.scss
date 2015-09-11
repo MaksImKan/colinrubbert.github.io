@@ -2,17 +2,17 @@
 @charset "utf-8";
 
 body {
-  background: #E3F2FD;
+  background: #FAFAFA;
   font-family: Roboto, sans-serif; }
 
 h1 {
-  color: rgba(0, 0, 0, .3);
+  color: #fff;
   font-weight: bold;
   font-size: 32px;
   letter-spacing: -1px;
   text-transform: uppercase;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  padding: 350px 0 10px;
+  padding: 30px 0 10px;
   margin: 0; }
 
 .doc {
@@ -55,9 +55,38 @@ h1 {
 
 
 // Customizations
+#top {
+  height: 220px;
+}
+
+#cards {
+  margin-top: -80px;
+}
+
+.ice {
+  height: 220px;
+  background: #03A9F4;
+  background-size: cover;
+  color: #fff;
+}
+
 .fire {
-  background: #81D4FA;
-  margin-top: 10px;
+  background: #FFF;
+  margin-bottom: 25px;
   padding: 10px 20px;
-  box-shadow: 2px 1px 5px #EC407A;
+  box-shadow: 0 1px 3px rgba(233,30,99 ,0.25),0 1px 2px rgba(233,30,99 ,0.25);
+}
+
+.fire ul {
+  list-style: square;
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+.fire ul li {
+  padding-bottom: 5px;
+}
+
+.clear {
+  clear: both;
 }
